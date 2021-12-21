@@ -631,38 +631,25 @@ li {
 /* Intro styles end*/
 
 /* Main styles start*/
-.frame-1 {
-  width: 1170px;
-  height: 1334px;
-  margin-left: 365px;
-  margin-top: 253px;
-  align-items: center;
-  padding-top: 0px;
-}
 
-.mini_title {
+.mini_title-1 {
   font-style: normal;
   font-weight: bold;
   font-size: 59px;
   line-height: 124%;
   text-align: center;
   color: #1b1f2b;
-}
-
-.mini-frame-1 {
-  width: 700px;
-  height: 34px;
-  margin-left: 236px;
-  margin-top: 35px;
+  margin-top: 254px;
 }
 
 .tour_list {
+  gap: 30px;
   display: flex;
   flex-wrap: wrap;
-}
-
-.tour_list_item {
-  margin-right: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 35px;
 }
 
 .tour-link {
@@ -695,45 +682,26 @@ li {
   padding-bottom: 6px;
 }
 
-/* Foto-frame-1-options-start*/
-
-.foto-frame-1 {
-  width: 1170px;
-  height: 1092px;
+.foto_frame-1 {
   display: flex;
-  margin-left: 0px;
-  margin-top: 100px;
+  justify-content: center;
 }
+/*Foto-frame-1-options-start*/
 /* Foto-frame-1-options-end*/
 /* Foto-list-1-options-start*/
 
 .foto_list-1 {
+  justify-content: center;
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
-}
-
-.foto_list-1_item {
-  margin-right: 30px;
+  flex-direction: row;
+  max-width: 1170px;
+  margin-top:105px;
+  gap: 30px;
 }
 
 /* Operations for items (align)-Start*/
-
-.foto_list-1_item:nth-child(3) {
-  margin-right: 0px;
-}
-.foto_list-1_item:last-child {
-  margin-right: 0px;
-}
-.foto_list-1_item:nth-child(4) {
-  margin-top: 30px;
-}
-.foto_list-1_item:nth-child(5) {
-  margin-top: 30px;
-}
-.foto_list-1_item:nth-child(6) {
-  margin-top: 30px;
-}
-
 /* Operations for items (align)-End*/
 /* Foto-list-1-options-start*/
 /*----------------------------------------*/
@@ -809,6 +777,12 @@ li {
   border-radius: 50px;
   background-size: cover;
 }
+/*.tour-card_text {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 50px;
+}*/
 /* Foto-list-1-options-end*/
 
 .mini_title-2 {
@@ -840,7 +814,7 @@ li {
   width: 1170px;
   height: 968px;
   display: flex;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin-left: 367px;
   margin-top: 100px;
 }
