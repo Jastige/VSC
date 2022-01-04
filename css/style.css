@@ -697,7 +697,7 @@ li {
   flex-wrap: wrap;
   flex-direction: row;
   max-width: 1170px;
-  margin-top:105px;
+  margin-top: 105px;
   gap: 30px;
 }
 
@@ -777,12 +777,45 @@ li {
   border-radius: 50px;
   background-size: cover;
 }
-/*.tour-card_text {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  gap: 50px;
-}*/
+.upper_text {
+  color: #ffffff;
+  max-height: 86px;
+  max-width: 270px;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 122%;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 16px;
+  padding-top: 50px;
+}
+
+.price_text {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: -1%;
+  line-height: 142%;
+  padding-top: 52px;
+  max-width: 270px;
+  max-height: 24px;
+  margin-bottom: 299px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.info_tour {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 122%;
+  margin-left: 50px;
+  margin-right: 200px;
+}
+
+.info_tour::after {
+  content: url(../img/PNG/Vector.png);
+}
+
 /* Foto-list-1-options-end*/
 
 .mini_title-2 {
@@ -810,57 +843,69 @@ li {
 /* client-info-frame options*/
 
 .client-info_frame {
-  border-radius: 50px;
-  width: 1170px;
-  height: 968px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+ 
+}
+
+.sup-frame{
   display: flex;
   background-color: #ffffff;
-  margin-left: 367px;
-  margin-top: 100px;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1170px;
+  max-height: 968px;
+ 
+}
+
+.client-frame_list {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #ffffff;
+  border-radius: 50px;
+  max-width: 1170px;
+  max-height: 968px;
+  gap: 30px;
+  margin-bottom: 69px;
+ 
 }
 
 .client-info-mini_frame-1 {
-  width: 1030px;
+  width: 500px;
   height: 104px;
-  display: flex;
-  background-color: rgb(206, 101, 31);
-  margin-left: 70px;
-  margin-top: 70px;
-}
-
-.client-info-mini_frame-2 {
-  width: 1030px;
-  height: 104px;
-  display: flex;
-  background-color: rgb(172, 79, 36);
-  margin-left: 70px;
-  margin-top: 33px;
-}
-
-.client-info-mini_frame-3 {
-  width: 1030px;
-  height: 152px;
-  display: flex;
-  background-color: rgb(163, 81, 43);
-  margin-left: 70px;
+  background-color: #F9F7F4;
   margin-top: 69px;
 }
 
-.client-info-mini_frame-4 {
-  width: 1030px;
-  height: 64px;
+.client-info-mini_frame-2 {
+  Width:1030px;
+  Height:152px;
   display: flex;
-  background-color: rgb(206, 98, 26);
-  margin-left: 70px;
+  background-color: #f9f7f4;
   margin-top: 33px;
+}
+.client-memo_form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width:1030px;
+  height:152px;
+
+}
+.sup-textarea{
+  width:1030px;
+  height:152px;
+}
+textarea {
+  background-color: #f9f7f4;
+  border: none;
+  display: block;
+  height: 100%;
+  width: 100%;
 }
 
-.client-info-mini_frame-5 {
-  width: 554px;
-  height: 26px;
-  display: flex;
-  background-color: rgb(177, 60, 31);
-  margin-left: 70px;
-  margin-top: 33px;
-}
 /* Main styles end*/
